@@ -14,7 +14,7 @@ function Header() {
           <div><p>Ограниченная</p><p>коллекция (200 шт)</p></div>
         </div>
 
-        <a href="/info#info" className="header-info__link yakor">эбаут</a>
+        <a href="./info#info" className="header-info__link yakor">эбаут</a>
       </div>
 
       <div className="header-params">
