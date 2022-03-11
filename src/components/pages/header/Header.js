@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <div className="header-title">
-        <h1><a href='/'>Ведро</a></h1>
+        <h1><a href='./'>Ведро</a></h1>
       </div>
 
       <div className="header-info">
@@ -27,7 +27,7 @@ function Header() {
         </div>
       </div>
 
-      <img className="header-img" src="vedro/img/vedro.webp" alt="vedro img"/>
+      <img className="header-img" src="./vedro/img/vedro.webp" alt="vedro img"/>
     </header>
   );
 }
