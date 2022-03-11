@@ -14,7 +14,7 @@ function Main() {
     <main>
       <Router>
           <Routes>
-              <Route path="/" element={<Buy />}/>
+              <Route path="/vedro" element={<Buy />}/>
               <Route path="/info" element={<Info />}/>
               <Route path="/buy" element={memBlock}/>
               <Route exect path="*" element={<NotFound />}/>
