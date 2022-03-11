@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4078e7b.css",
-    "main.js": "/static/js/main.7b90ea56.js",
-    "static/media/Gosha.woff": "/static/media/Gosha.452730c60143270c422b.woff",
-    "static/media/Gosha-Regular.woff": "/static/media/Gosha-Regular.0eb41276e44fa590925a.woff",
-    "static/media/Gosha.woff2": "/static/media/Gosha.e3a5e410f6020a787beb.woff2",
-    "static/media/Gosha-Regular.woff2": "/static/media/Gosha-Regular.3c1df0e6f6ba60b9b376.woff2",
-    "index.html": "/index.html",
-    "main.b4078e7b.css.map": "/static/css/main.b4078e7b.css.map",
-    "main.7b90ea56.js.map": "/static/js/main.7b90ea56.js.map"
+    "main.css": "/vedro/static/css/main.c809354c.css",
+    "main.js": "/vedro/static/js/main.f514458a.js",
+    "static/media/Gosha.woff": "/vedro/static/media/Gosha.452730c60143270c422b.woff",
+    "static/media/Gosha-Regular.woff": "/vedro/static/media/Gosha-Regular.0eb41276e44fa590925a.woff",
+    "static/media/Gosha.woff2": "/vedro/static/media/Gosha.e3a5e410f6020a787beb.woff2",
+    "static/media/Gosha-Regular.woff2": "/vedro/static/media/Gosha-Regular.3c1df0e6f6ba60b9b376.woff2",
+    "index.html": "/vedro/index.html",
+    "main.c809354c.css.map": "/vedro/static/css/main.c809354c.css.map",
+    "main.f514458a.js.map": "/vedro/static/js/main.f514458a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4078e7b.css",
-    "static/js/main.7b90ea56.js"
+    "static/css/main.c809354c.css",
+    "static/js/main.f514458a.js"
   ]
 }
