@@ -1,15 +1,21 @@
-header {
+header, .header-title {
   position: relative;
 }
 
 .header-title {
+  z-index: 2;
   line-height: 1;
   margin-bottom: 110px;
   font-size: 110px;
   font-family: 'Gosha',Arial,sans-serif;
 }
 
+.header-title a {
+  text-decoration: unset;
+}
+
 .header-info {
+  z-index: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

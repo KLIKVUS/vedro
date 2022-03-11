@@ -4,7 +4,9 @@ import './header-style.css';
 function Header() {
   return (
     <header>
-      <h1 className="header-title">Ведро</h1>
+      <div className="header-title">
+        <h1><a href='/'>Ведро</a></h1>
+      </div>
 
       <div className="header-info">
         <div className="header-info__text">
@@ -12,7 +14,7 @@ function Header() {
           <div><p>Ограниченная</p><p>коллекция (200 шт)</p></div>
         </div>
 
-        <a href="#info" className="header-info__link yakor">эбаут</a>
+        <a href="/info#info" className="header-info__link yakor">эбаут</a>
       </div>
 
       <div className="header-params">
@@ -25,7 +27,7 @@ function Header() {
         </div>
       </div>
 
-      <img className="header-img" src="./img/vedro.webp" alt="vedro img"/>
+      <img className="header-img" src="vedro/img/vedro.webp" alt="vedro img"/>
     </header>
   );
 }

@@ -1,22 +1,25 @@
-import Card from '../partials/Card';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
+import Buy from '../partials/Buy';
+import Info from '../partials/Info';
+import NotFound from '../partials/NotFound';
 
 import './main-style.css';
 
-let cardData = [
-  {cardParamData: "16л", cardParam: "Объем", cardText:"Человеку для выживания необходимо примерно 1,5 литра воды в день. Полное ведро продлит жизнь на 10 дней"},
-  {cardParamData: "24см", cardParam: "Диаметр", cardText:"ЧКомпактное ведро, которое можно взять даже в поход"},
-  {cardParamData: "сталь", cardParam: "Ручка", cardText:"Стальная ручка позволит переносить в ведре больше, чем ты сможешь поднять"}
-]
 
+const memBlock = <iframe id="mem" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>;
 
 function Main() {
   return (
     <main>
-      <h1 id="info" className="main-title">На все случаи жизни</h1>
-
-      <div className="main-cards">
-        {cardData.map((elem) => <Card key={cardData.indexOf(elem)} cardParamData={elem.cardParamData} cardParam={elem.cardParam} cardText={elem.cardText}/>)}
-      </div>
+      <Router>
+          <Routes>
+              <Route path="/" element={<Buy />}/>
+              <Route path="/info" element={<Info />}/>
+              <Route path="/buy" element={memBlock}/>
+              <Route exect path="*" element={<NotFound />}/>
+          </Routes>
+      </Router>
     </main>
   );
 }
