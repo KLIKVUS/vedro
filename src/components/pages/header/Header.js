@@ -27,7 +27,7 @@ function Header() {
         </div>
       </div>
 
-      <img className="header-img" src="vedro/img/vedro.webp" alt="vedro img"/>
+      <img className="header-img" src="./img/vedro.webp" alt="vedro img"/>
     </header>
   );
 }
