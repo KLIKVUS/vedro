@@ -6,7 +6,7 @@ import './footer-style.css';
 
 
 function Footer(props) {
-  const {selectedTheme, setSelectedTheme} = props;
+  const {setSelectedTheme} = props;
   const themes = useContext(ThemesContext);
   const changeTheme = () => {
     setSelectedTheme((theme) => theme.title != themes[0].title ? themes[0] : themes[1]);
