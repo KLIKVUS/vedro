@@ -4,7 +4,7 @@ function Buy() {
             <div className="main-buy-block__wrapper">
                 <h1 className="main-buy-block__title">Бро,</h1>
                 <div className="main-buy-block__links">
-                    <a href="/buy#mem">купить</a>
+                    <a href="buy#mem">купить</a>
                     <a href="">для оптовых бро</a>
                 </div>
             </div>

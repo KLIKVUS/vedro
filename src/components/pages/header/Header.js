@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <div className="header-title">
-        <h1><a href='/'>Ведро</a></h1>
+        <h1><a href='/vedro'>Ведро</a></h1>
       </div>
 
       <div className="header-info">
@@ -14,7 +14,7 @@ function Header() {
           <div><p>Ограниченная</p><p>коллекция (200 шт)</p></div>
         </div>
 
-        <a href="/info#info" className="header-info__link yakor">эбаут</a>
+        <a href="info#info" className="header-info__link yakor">эбаут</a>
       </div>
 
       <div className="header-params">
@@ -27,7 +27,7 @@ function Header() {
         </div>
       </div>
 
-      <img className="header-img" src="vedro/img/vedro.webp" alt="vedro img"/>
+      <img className="header-img" src="img/vedro.webp" alt="vedro img"/>
     </header>
   );
 }
