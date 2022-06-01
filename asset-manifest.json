@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/vedro/static/css/main.bff12e67.css",
-    "main.js": "/vedro/static/js/main.a5f6f026.js",
+    "main.js": "/vedro/static/js/main.bbb2f70d.js",
     "static/media/Gosha.woff": "/vedro/static/media/Gosha.452730c60143270c422b.woff",
     "static/media/Gosha-Regular.woff": "/vedro/static/media/Gosha-Regular.0eb41276e44fa590925a.woff",
     "static/media/Gosha.woff2": "/vedro/static/media/Gosha.e3a5e410f6020a787beb.woff2",
     "static/media/Gosha-Regular.woff2": "/vedro/static/media/Gosha-Regular.3c1df0e6f6ba60b9b376.woff2",
     "index.html": "/vedro/index.html",
     "main.bff12e67.css.map": "/vedro/static/css/main.bff12e67.css.map",
-    "main.a5f6f026.js.map": "/vedro/static/js/main.a5f6f026.js.map"
+    "main.bbb2f70d.js.map": "/vedro/static/js/main.bbb2f70d.js.map"
   },
   "entrypoints": [
     "static/css/main.bff12e67.css",
-    "static/js/main.a5f6f026.js"
+    "static/js/main.bbb2f70d.js"
   ]
 }
