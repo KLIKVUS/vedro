@@ -12,13 +12,13 @@ const memBlock = <iframe id="mem" width="560" height="315" src="https://www.yout
 function Main() {
   return (
     <main>
-      <Router>
+      <Router basename="/vedro">
           <Routes>
-              <Route path="/" element={<Buy />}/>
+              {/* <Route path="/" element={<Buy />}/> */}
               <Route path="/vedro" element={<Buy />}/>
-              <Route path="/info" element={<Info />}/>
+              {/* <Route path="/info" element={<Info />}/> */}
               <Route path="/vedro/info" element={<Info />}/>
-              <Route path="/buy" element={memBlock}/>
+              {/* <Route path="/buy" element={memBlock}/> */}
               <Route path="/vedro/buy" element={memBlock}/>
               <Route exect path="*" element={<NotFound />}/>
           </Routes>
